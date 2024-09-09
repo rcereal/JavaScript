@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="formulario">
+        <label for="cep">Digite seu CEP</label>
+        <input type="text" id="cep" placeholder="cep">
+        <button onclick="consultarCep()">Consultar</button>
+    </div>
+<br>
+    <div >
+        <table id="tabela" border=1 solid>
+            <tr>
+                <th>CEP</th>
+                <th>LOGRADOURO</th>
+                <th>COMPLEMENTO</th>
+                <th>BAIRRO</th>
+                <th>LOCALIDADE</th>
+                <th>UF</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

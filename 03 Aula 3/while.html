@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   var contador = parseInt(prompt("Digite o numero entre 1 e 3"));
+
+      //   while (contador < 10) {
+      //     alert(contador);
+      //     contador++;
+      //   }
+
+      //   var nota = parseInt(prompt("Digite uma nota de 0 a 10"));
+      //   while ((nota < 0) || (nota > 10))
+      //   {
+      //     nota = parseInt(
+      //       prompt("Numero informado inválido,informe uma nota de 0 a 10"));
+      //   }
+      //   alert("Programa encerrado");
+
+      //   var nome = prompt("Digite o seu nome de usuario: ");
+      //   var senha = prompt("Digite sua senha: ");
+
+      //   while (nome == senha) {
+      //     alert(
+      //       "A senha Digitada é igual ao nome de usuario, por segurança digite uma senha diferente."
+      //     );
+      //     var senha = prompt("Digite sua senha: ");
+      //   }
+
+      //   alert("Seja bem vindo");
+
+      let qtd_notas = parseInt(
+        prompt("Informe quantas notas serão inseridas :")
+      );
+      let contador = 1;
+      let somatorio = 0;
+      while (contador <= qtd_notas) {
+        let nota = parseFloat(prompt(`Informe a ${contador}º nota:  `));
+        somatorio += nota;
+        contador++;
+      }
+      let media = somatorio / qtd_notas;
+      alert(`A média das notas foi ${media}`);
+    </script>
+  </body>
+</html>

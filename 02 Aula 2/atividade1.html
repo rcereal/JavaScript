@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*var idade = parseInt(prompt('Digite sua idade: '))
+
+        if (idade >= 0 && idade <= 15) {
+            alert('Você ainda é criança')
+        
+        } else if (idade >= 15 && idade <= 30) {
+            alert('Você é jovem')
+
+        } else if (idade >= 30 && idade <= 60) {
+            alert('Você é adulto')
+
+        } else {
+            alert('Você ja é idoso')
+        } */
+
+        /*LOGIN 
+        var email_do_usuario = 'jorgeversicilio@gmail.com'
+        var senha_do_usuario = 'jorginho17'
+
+        var email = prompt('Digite seu email: ')
+        var senha = prompt('Digite senha: ')
+
+        if (email === email_do_usuario && senha === senha_do_usuario) {
+            alert('Bem Vindo Jorge!')
+        }  
+        else {
+            alert('Dados incorretos')
+        } */
+
+        var nivel = parseInt(prompt('Digite seu nivel de 1 a 3, sendo 1 para visitante, 2 para membro e 3 para Administrador'))
+        switch (nivel) {
+            case 1:
+                alert ('Bem vindo, você é um visitante. Sinta-se em casa!')
+                break
+            case 2:
+                alert ('Bem vindo, Membro')
+                break
+            case 3:
+                alert ('Bem vindo, Administrador')
+                break
+            default:
+                alert('Nivel de acesso Invalido')
+        }
+
+    </script>
+</body>
+</html>
